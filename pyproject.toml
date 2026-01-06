@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dan_utils"
+version = "0.1.0"
+description = "My personal package of utilities for various applications, such as DL"
+dependencies = [
+    "numpy",
+    "matplotlib"
+]
+
+[tools.setuptools]
+packages = ["dl_utils"]
