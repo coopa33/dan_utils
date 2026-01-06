@@ -12,4 +12,4 @@ dependencies = [
 ]
 
 [tools.setuptools]
-packages = ["dl_utils"]
+packages = ["dl_utils", "ml_utils"]
