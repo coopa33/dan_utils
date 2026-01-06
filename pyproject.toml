@@ -11,5 +11,5 @@ dependencies = [
     "matplotlib"
 ]
 
-[tools.setuptools]
+[tool.setuptools]
 packages = ["dl_utils", "ml_utils"]
