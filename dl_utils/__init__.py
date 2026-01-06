@@ -1,1 +1,1 @@
-from .decorators import timer
+from .decorators import timer, check_nan
