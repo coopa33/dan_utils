@@ -1,1 +1,15 @@
 *.egg-info
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg
+dist/
+build/
+*.log
+*.csv
+*.tsv
+*.json
+*.h5        
