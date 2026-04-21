@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dan_utils"
+name = "dan-utils"
 version = "0.1.0"
 description = "My personal package of utilities for various applications, such as DL"
 dependencies = [
@@ -12,5 +12,5 @@ dependencies = [
     "torch"
 ]
 
-[tool.setuptools]
-packages = ["dan_utils"]
+[tool.setuptools.packages.find]
+include = ["dan_utils*"]
