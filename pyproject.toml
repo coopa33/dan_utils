@@ -8,8 +8,9 @@ version = "0.1.0"
 description = "My personal package of utilities for various applications, such as DL"
 dependencies = [
     "numpy",
-    "matplotlib"
+    "matplotlib",
+    "torch"
 ]
 
 [tool.setuptools]
-packages = ["dl_utils", "ml_utils"]
+packages = ["dan_utils"]
